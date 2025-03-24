@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/programowanie/verilog/lab10_procesor2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sim_1/new/tb_processor.v,1718204362,verilog,,,,tb_processor,,,,,,,,
+D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sources_1/imports/lab9_procesor/d_mem.v,1717598980,verilog,,D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v,,d_mem,,,,,,,,
+D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v,1718208738,verilog,,D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sources_1/new/processor.v,,i_mem,,,,,,,,
+D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sources_1/new/processor.v,1718198911,verilog,,D:/programowanie/verilog/lab10_procesor2/project_1/project_1.srcs/sim_1/new/tb_processor.v,,alu;decoder;mux2;mux4;mux8;processor,,,,,,,,

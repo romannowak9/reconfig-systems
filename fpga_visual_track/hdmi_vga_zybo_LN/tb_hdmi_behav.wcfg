@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_hdmi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_hdmi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="48,095.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="48,123.101 ns"></ZoomEndTime>
+      <Cursor1Time time="47,327.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="51" />
+   <wvobject fp_name="/tb_hdmi/rx_pclk" type="logic">
+      <obj_property name="ElementShortName">rx_pclk</obj_property>
+      <obj_property name="ObjectShortName">rx_pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_de" type="logic">
+      <obj_property name="ElementShortName">rx_de</obj_property>
+      <obj_property name="ObjectShortName">rx_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_hsync" type="logic">
+      <obj_property name="ElementShortName">rx_hsync</obj_property>
+      <obj_property name="ObjectShortName">rx_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_vsync" type="logic">
+      <obj_property name="ElementShortName">rx_vsync</obj_property>
+      <obj_property name="ObjectShortName">rx_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_red" type="array">
+      <obj_property name="ElementShortName">rx_red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_red[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_green" type="array">
+      <obj_property name="ElementShortName">rx_green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_green[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_blue" type="array">
+      <obj_property name="ElementShortName">rx_blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_blue[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_de" type="logic">
+      <obj_property name="ElementShortName">tx_de</obj_property>
+      <obj_property name="ObjectShortName">tx_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_hsync" type="logic">
+      <obj_property name="ElementShortName">tx_hsync</obj_property>
+      <obj_property name="ObjectShortName">tx_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_vsync" type="logic">
+      <obj_property name="ElementShortName">tx_vsync</obj_property>
+      <obj_property name="ObjectShortName">tx_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_red" type="array">
+      <obj_property name="ElementShortName">tx_red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_red[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_green" type="array">
+      <obj_property name="ElementShortName">tx_green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_green[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_blue" type="array">
+      <obj_property name="ElementShortName">tx_blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_blue[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/lut_de" type="logic">
+      <obj_property name="ElementShortName">lut_de</obj_property>
+      <obj_property name="ObjectShortName">lut_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/lut_hsync" type="logic">
+      <obj_property name="ElementShortName">lut_hsync</obj_property>
+      <obj_property name="ObjectShortName">lut_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/lut_vsync" type="logic">
+      <obj_property name="ElementShortName">lut_vsync</obj_property>
+      <obj_property name="ObjectShortName">lut_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/lut_red" type="array">
+      <obj_property name="ElementShortName">lut_red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_red[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/lut_green" type="array">
+      <obj_property name="ElementShortName">lut_green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_green[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/lut_blue" type="array">
+      <obj_property name="ElementShortName">lut_blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_blue[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/sw" type="array">
+      <obj_property name="ElementShortName">sw[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/divider1/dividend" type="array">
+      <obj_property name="ElementShortName">dividend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/divider1/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[19:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/divider1/quotient" type="array">
+      <obj_property name="ElementShortName">quotient[31:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/ce" type="logic">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/de" type="logic">
+      <obj_property name="ElementShortName">de</obj_property>
+      <obj_property name="ObjectShortName">de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/prev_vsync" type="logic">
+      <obj_property name="ElementShortName">prev_vsync</obj_property>
+      <obj_property name="ObjectShortName">prev_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/mask" type="logic">
+      <obj_property name="ElementShortName">mask</obj_property>
+      <obj_property name="ObjectShortName">mask</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/x" type="array">
+      <obj_property name="ElementShortName">x[11:0]</obj_property>
+      <obj_property name="ObjectShortName">x[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/y" type="array">
+      <obj_property name="ElementShortName">y[10:0]</obj_property>
+      <obj_property name="ObjectShortName">y[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/x_pos" type="array">
+      <obj_property name="ElementShortName">x_pos[11:0]</obj_property>
+      <obj_property name="ObjectShortName">x_pos[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/y_pos" type="array">
+      <obj_property name="ElementShortName">y_pos[10:0]</obj_property>
+      <obj_property name="ObjectShortName">y_pos[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/eof" type="logic">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/x_sc" type="array">
+      <obj_property name="ElementShortName">x_sc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_sc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/y_sc" type="array">
+      <obj_property name="ElementShortName">y_sc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/div_out1" type="array">
+      <obj_property name="ElementShortName">div_out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/div_out2" type="array">
+      <obj_property name="ElementShortName">div_out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/qv1" type="logic">
+      <obj_property name="ElementShortName">qv1</obj_property>
+      <obj_property name="ObjectShortName">qv1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/qv2" type="logic">
+      <obj_property name="ElementShortName">qv2</obj_property>
+      <obj_property name="ObjectShortName">qv2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/m01" type="array">
+      <obj_property name="ElementShortName">m01[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m01[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/m00" type="array">
+      <obj_property name="ElementShortName">m00[19:0]</obj_property>
+      <obj_property name="ObjectShortName">m00[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/m10" type="array">
+      <obj_property name="ElementShortName">m10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/IMG_H" type="array">
+      <obj_property name="ElementShortName">IMG_H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMG_H[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/center/IMG_W" type="array">
+      <obj_property name="ElementShortName">IMG_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMG_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/median/mask" type="logic">
+      <obj_property name="ElementShortName">mask</obj_property>
+      <obj_property name="ObjectShortName">mask</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/median/context_flag" type="logic">
+      <obj_property name="ElementShortName">context_flag</obj_property>
+      <obj_property name="ObjectShortName">context_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/median/pixel_out" type="array">
+      <obj_property name="ElementShortName">pixel_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/median/sumsum" type="array">
+      <obj_property name="ElementShortName">sumsum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sumsum[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

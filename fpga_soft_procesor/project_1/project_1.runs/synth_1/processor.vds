@@ -1,0 +1,297 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jun 12 15:17:02 2024
+# Process ID: 14968
+# Current directory: D:/programowanie/verilog/lab9_procesor/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source processor.tcl
+# Log file: D:/programowanie/verilog/lab9_procesor/project_1/project_1.runs/synth_1/processor.vds
+# Journal file: D:/programowanie/verilog/lab9_procesor/project_1/project_1.runs/synth_1\vivado.jou
+# Running On: LAPTOP-8401LO1G, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 7916 MB
+#-----------------------------------------------------------
+source processor.tcl -notrace
+Command: synth_design -top processor -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15100
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 833.094 ; gain = 411.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'processor' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:116]
+INFO: [Synth 8-6157] synthesizing module 'i_mem' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'i_mem' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:5]
+INFO: [Synth 8-6157] synthesizing module 'd_mem' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/d_mem.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'd_mem' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/d_mem.v:5]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:83]
+WARNING: [Synth 8-689] width (7) of port connection 'y' does not match port width (8) of module 'decoder' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:187]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:21]
+INFO: [Synth 8-6157] synthesizing module 'mux8' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'mux8' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:36]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:99]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:99]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'processor' (0#1) [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/new/processor.v:116]
+WARNING: [Synth 8-3848] Net program[255] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[254] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[253] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[252] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[251] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[250] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[249] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[248] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[247] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[246] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[245] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[244] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[243] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[242] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[241] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[240] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[239] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[238] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[237] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[236] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[235] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[234] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[233] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[232] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[231] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[230] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[229] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[228] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[227] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[226] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[225] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[224] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[223] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[222] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[221] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[220] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[219] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[218] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[217] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[216] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[215] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[214] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[213] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[212] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[211] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[210] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[209] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[208] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[207] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[206] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[205] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[204] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[203] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[202] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[201] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[200] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[199] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[198] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[197] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[196] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[195] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[194] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[193] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[192] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[191] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[190] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[189] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[188] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[187] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[186] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[185] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[184] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[183] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[182] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[181] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[180] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[179] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[178] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[177] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[176] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[175] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[174] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[173] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[172] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[171] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[170] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[169] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[168] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[167] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[166] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[165] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[164] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[163] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[162] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[161] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[160] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[159] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[158] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[157] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+WARNING: [Synth 8-3848] Net program[156] in module/entity i_mem does not have driver. [D:/programowanie/verilog/lab9_procesor/project_1/project_1.srcs/sources_1/imports/lab9_procesor/i_mem.v:12]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 929.551 ; gain = 507.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 929.551 ; gain = 507.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 929.551 ; gain = 507.480
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 929.551 ; gain = 507.480
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 8     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 3     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 505 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1112.664 ; gain = 690.594
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.664 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1222.617 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 781d08d2
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1222.617 ; gain = 824.414
+INFO: [Common 17-1381] The checkpoint 'D:/programowanie/verilog/lab9_procesor/project_1/project_1.runs/synth_1/processor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file processor_utilization_synth.rpt -pb processor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 12 15:17:38 2024...
